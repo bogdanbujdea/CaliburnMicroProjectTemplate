@@ -1,4 +1,6 @@
-﻿namespace CaliburnUniversalTemplate
+﻿using CaliburnUniversalTemplate.Features.Navigation;
+
+namespace CaliburnUniversalTemplate
 {
     using System;
     using System.Collections.Generic;
@@ -34,6 +36,8 @@
             _container.RegisterWinRTServices();
 
             _container.PerRequest<MainPageViewModel>();
+
+            _container.RegisterSingleton(typeof(IPageNavigationService), "IPageNavigationService", typeof(PageNavigationService));
         }
 
         protected override void PrepareViewFirst(Frame rootFrame)

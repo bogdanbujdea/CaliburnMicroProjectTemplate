@@ -1,6 +1,11 @@
 ﻿namespace CaliburnUniversalTemplate.ViewModels
 {
-    public class MainPageViewModel
+    using Features.Navigation;
+
+    public class MainPageViewModel: ViewModelBase
     {
+        protected MainPageViewModel(IPageNavigationService pageNavigationService) : base(pageNavigationService)
+        {
+        }
     }
 }
