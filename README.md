@@ -1,4 +1,4 @@
-# CaliburnMicroProjectTemplate
+# Caliburn.Micro Project Template
 A Caliburn.Micro project template for Windows 10
 
 DISCLAIMER: I'm a beginner in open source, so I'm aware that the code I write may not be suitable for all Caliburn.Micro projects, but I'm very happy to hear your suggestions and accept your pull requests!
