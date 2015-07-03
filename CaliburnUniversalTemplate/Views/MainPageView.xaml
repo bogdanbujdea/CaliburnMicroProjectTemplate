@@ -9,5 +9,14 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <TextBlock Text="Caliburn.Micro rocks!!!" FontSize="24" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 150 0 0">
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="ShowMessageDialog" Content="Show Message Dialog"></Button>
+                <Button x:Name="ShowQuestion" Content="Ask yes/no questions" Margin="10 0"></Button>
+                <Button x:Name="ShowQuestionWithOptions" Content="Show dialog with options"></Button>                
+            </StackPanel>
+            <TextBlock x:Name="UserChoice"></TextBlock>
+        </StackPanel>
+        
     </Grid>
 </Page>

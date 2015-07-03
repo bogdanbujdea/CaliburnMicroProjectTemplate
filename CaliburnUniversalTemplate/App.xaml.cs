@@ -1,4 +1,5 @@
-﻿using CaliburnTemplateTools.Features.Navigation;
+﻿using CaliburnTemplateTools.Features.Dialogs;
+using CaliburnTemplateTools.Features.Navigation;
 using CaliburnUniversalTemplate.Features.Navigation;
 
 namespace CaliburnUniversalTemplate
@@ -39,6 +40,7 @@ namespace CaliburnUniversalTemplate
             _container.PerRequest<MainPageViewModel>();
 
             _container.RegisterSingleton(typeof(IPageNavigationService), "IPageNavigationService", typeof(PageNavigationService));
+            _container.RegisterSingleton(typeof(IUserNotificationService), "IUserNotificationService", typeof(UserNotificationService));
         }
 
         protected override void PrepareViewFirst(Frame rootFrame)

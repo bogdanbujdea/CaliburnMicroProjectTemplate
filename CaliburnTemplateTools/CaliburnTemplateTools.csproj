@@ -110,6 +110,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Features\Converters\ReversedBooleanToVisibilityConverter.cs" />
+    <Compile Include="Features\Dialogs\IUserNotificationService.cs" />
+    <Compile Include="Features\Dialogs\Option.cs" />
+    <Compile Include="Features\Dialogs\UserNotificationService.cs" />
     <Compile Include="Features\Navigation\IPageNavigationService.cs" />
     <Compile Include="Features\Navigation\NavigationKey.cs" />
     <Compile Include="Features\Navigation\PageNavigationService.cs" />
