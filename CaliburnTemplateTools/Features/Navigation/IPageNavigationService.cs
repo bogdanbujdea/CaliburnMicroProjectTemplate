@@ -1,6 +1,7 @@
-﻿namespace CaliburnUniversalTemplate.Features.Navigation
+﻿namespace CaliburnTemplateTools.Features.Navigation
 {
     using System.Collections.Generic;
+    using CaliburnUniversalTemplate.Features.Navigation;
 
     public interface IPageNavigationService
     {

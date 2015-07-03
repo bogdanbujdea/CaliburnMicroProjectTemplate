@@ -1,3 +1,5 @@
+using CaliburnTemplateTools.Features.Navigation;
+
 namespace CaliburnUniversalTemplate.Features.Navigation
 {
     using System;

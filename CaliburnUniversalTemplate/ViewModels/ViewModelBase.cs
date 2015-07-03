@@ -1,4 +1,6 @@
-﻿namespace CaliburnUniversalTemplate.ViewModels
+﻿using CaliburnTemplateTools.Features.Navigation;
+
+namespace CaliburnUniversalTemplate.ViewModels
 {
     using Caliburn.Micro;
 

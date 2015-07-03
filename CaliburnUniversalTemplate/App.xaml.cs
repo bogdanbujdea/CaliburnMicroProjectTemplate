@@ -1,4 +1,5 @@
-﻿using CaliburnUniversalTemplate.Features.Navigation;
+﻿using CaliburnTemplateTools.Features.Navigation;
+using CaliburnUniversalTemplate.Features.Navigation;
 
 namespace CaliburnUniversalTemplate
 {
