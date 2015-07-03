@@ -7,9 +7,6 @@
     RequestedTheme="Light">
     <micro:CaliburnApplication.Resources>
         <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="Resources/AppStyles.xaml" />
-            </ResourceDictionary.MergedDictionaries>
             <micro:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
             <converters:ReversedBooleanToVisibilityConverter x:Key="ReversedBooleanToVisibilityConverter" />
         </ResourceDictionary>

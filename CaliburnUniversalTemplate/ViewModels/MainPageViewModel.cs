@@ -1,12 +1,10 @@
-﻿using CaliburnTemplateTools.Features.Navigation;
-
-namespace CaliburnUniversalTemplate.ViewModels
+﻿namespace CaliburnUniversalTemplate.ViewModels
 {
-    using Features.Navigation;
+    using CaliburnTemplateTools.Features.Navigation;
 
     public class MainPageViewModel: ViewModelBase
     {
-        protected MainPageViewModel(IPageNavigationService pageNavigationService) : base(pageNavigationService)
+        public MainPageViewModel(IPageNavigationService pageNavigationService) : base(pageNavigationService)
         {
         }
     }
