@@ -1,11 +1,8 @@
-﻿using CaliburnTemplateTools.Features.Navigation;
-
-namespace CaliburnUniversalTemplate.ViewModels
+﻿namespace CaliburnUniversalTemplate.ViewModels
 {
     using Caliburn.Micro;
 
-    using Features.Navigation;
-
+    using Tools.Navigation;
 
     public class ViewModelBase: Screen
     {

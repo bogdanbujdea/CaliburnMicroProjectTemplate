@@ -1,8 +1,4 @@
-﻿using CaliburnTemplateTools.Features.Dialogs;
-using CaliburnTemplateTools.Features.Navigation;
-using CaliburnUniversalTemplate.Features.Navigation;
-
-namespace CaliburnUniversalTemplate
+﻿namespace CaliburnUniversalTemplate
 {
     using System;
     using System.Collections.Generic;
@@ -10,11 +6,14 @@ namespace CaliburnUniversalTemplate
     using Windows.UI.Xaml.Controls;
     using Windows.ApplicationModel.Activation;
 
+    using Microsoft.ApplicationInsights;
+
     using Caliburn.Micro;
 
     using Views;
     using ViewModels;
-    using Microsoft.ApplicationInsights;
+    using Tools.Dialogs;
+    using Tools.Navigation;
 
     public sealed partial class App
     {

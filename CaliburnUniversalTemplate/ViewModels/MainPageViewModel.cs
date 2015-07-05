@@ -1,10 +1,10 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using CaliburnTemplateTools.Features.Dialogs;
-
-namespace CaliburnUniversalTemplate.ViewModels
+﻿namespace CaliburnUniversalTemplate.ViewModels
 {
-    using CaliburnTemplateTools.Features.Navigation;
+    using System.Threading.Tasks;
+    using System.Collections.Generic;
+
+    using Tools.Dialogs;
+    using Tools.Navigation;
 
     public class MainPageViewModel: ViewModelBase
     {
