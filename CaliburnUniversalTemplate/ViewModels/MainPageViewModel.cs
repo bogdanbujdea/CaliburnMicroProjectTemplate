@@ -35,8 +35,7 @@
             var answer = await _userNotificationService.ShowOptions("1 + 1 equals...", new List<Option>
             {
                 new Option("1", 1),
-                new Option("2", 2),
-                new Option("3", 3)
+                new Option("2", 2)
             });
             int result = (int) answer;
             if(result == 2)

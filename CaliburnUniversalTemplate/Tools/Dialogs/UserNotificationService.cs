@@ -87,8 +87,8 @@
                 throw new ArgumentException("The question can't be empty");
             if ( options == null )
                 throw new ArgumentException("The list of options can't be null");
-            if ( options.Count > 3 )
-                throw new ArgumentException("You can't send more than 3 options");
+            if ( options.Count > 2 )
+                throw new ArgumentException("You can't send more than 2 options");
             var messageDialog = string.IsNullOrEmpty(title) ? new MessageDialog(question) : new MessageDialog(question, title);
             object result = null;
             foreach ( var option in options )
