@@ -1,4 +1,8 @@
-﻿namespace CaliburnUniversalTemplate.ViewModels
+﻿using System;
+using Windows.ApplicationModel.Email;
+using Windows.System;
+
+namespace CaliburnUniversalTemplate.ViewModels
 {
     using System.Threading.Tasks;
     using System.Collections.Generic;
@@ -19,6 +23,29 @@
         public async Task ShowMessageDialog()
         {
             await _userNotificationService.ShowMessageDialogAsync("This is a message dialog sample!");
+        }
+
+        public async void SendEmail()
+        {
+            await EmailManager.ShowComposeNewEmailAsync(new EmailMessage
+            {
+                To = {new EmailRecipient("bujdeabogdan@gmail.com")}
+            });
+        }
+
+        public async void OpenTwitter()
+        {
+            await Launcher.LaunchUriAsync(new Uri("http://twitter.com/thewindev"));
+        }
+
+        public async void OpenWebsite()
+        {
+            await Launcher.LaunchUriAsync(new Uri("http://thewindev.net"));
+        }
+
+        public async void OpenGithub()
+        {
+            await Launcher.LaunchUriAsync(new Uri("https://github.com/thewindev/CaliburnMicroProjectTemplate"));
         }
 
         public async Task ShowQuestion()
