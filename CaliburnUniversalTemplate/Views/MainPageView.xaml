@@ -13,10 +13,9 @@
             <StackPanel x:Name="ButtonsPanel" Orientation="Horizontal">
                 <Button x:Name="ShowMessageDialog" Content="Show Message Dialog"></Button>
                 <Button x:Name="ShowQuestion" Content="Ask yes/no questions" Margin="10 0"></Button>
-                <Button x:Name="ShowQuestionWithOptions" Content="Show dialog with options"></Button>                
+                <Button x:Name="ShowQuestionWithOptions" Content="Show dialog with options"></Button>
             </StackPanel>
             <TextBlock x:Name="UserChoice"></TextBlock>
         </StackPanel>
-        
     </Grid>
 </Page>
